@@ -1,0 +1,4 @@
+Bilder/treeBlue.png
+Bilder/treeFire.png
+Bilder/treeOp.png
+Bilder/Gegner.png

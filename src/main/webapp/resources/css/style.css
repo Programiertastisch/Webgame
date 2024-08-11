@@ -1,0 +1,121 @@
+.treasure {
+	height: auto;
+  background-color: white;
+  position: absolute;
+  left: 11%;
+}
+
+.chest {
+	height: 60px;
+}
+
+.mainPage {
+	padding: 10px;
+}
+
+
+.page {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* Stil für die Lebensleiste */
+.enemy-container {
+	position: relative;
+	text-align: center;
+}
+
+.enemy {
+	width: 60vw;
+	height: 3vh;
+	border-radius: 20px;
+	background-color: #ccc;
+	margin-bottom: 10px;
+}
+
+.progress {
+	height: 3vh;
+	border-radius: 20px;
+
+}
+
+#red {
+	height: 3vh;
+	border-radius: 20px;
+}
+
+/* Stil für den Fortschrittsbalken (rote Lebenspunkte) */
+.progress-bar {
+	background-color: #f00;
+	width: 100%;
+	/* Rote Farbe für die Lebenspunkte */
+}
+
+.healthPoints {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -10%);
+	color: white;
+	font-size: 15px;
+}
+
+.stats {
+	display: flex;
+	margin-top: 30px;
+	gap: 10vw;
+	font-size: 30px;
+}
+.statsChest{
+  position: absolute;
+  left: 20%;
+  font-size: 30px;
+}
+#autoButton{
+	position: absolute;
+  top: 70%;
+  left: 65%;
+}
+#saveButton{
+	position: absolute;
+  top: 76%;
+  left: 65%;
+}
+.level-container{
+	position: relative;
+	text-align: center;
+}
+.level{
+	width: 60vw;
+	height: 3vh;
+	border-radius: 20px;
+	background-color: #ccc;
+	margin-bottom: 30px;
+}
+.progress-level {
+	height: 3vh;
+	border-radius: 20px;
+}
+.progress-bar-level {
+    background-color: blue;
+    width: 0%;
+}
+#blue{
+	height: 3vh;
+	border-radius: 20px;
+}
+.requiredLevel{
+  position: absolute;
+  left: 51%;
+  transform: translate(-50%, -10%);
+  color: white;
+  font-size: 15px;
+}
+.epLevelHave{
+	position: absolute;
+  left: 48%;
+  transform: translate(-50%, -10%);
+  color: white;
+  font-size: 15px;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "idle-game-tree",
+  "version": "1.0.0",
+  "description": "Click to make damage and do more damage per click. Also u can draw Weapons to multiply your dmg per click",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.3.2"
+  }
+}
